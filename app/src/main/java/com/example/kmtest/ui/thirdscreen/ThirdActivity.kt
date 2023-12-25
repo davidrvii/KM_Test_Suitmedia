@@ -1,7 +1,7 @@
 package com.example.kmtest.ui.thirdscreen
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.kmtest.R
 
 class ThirdActivity : AppCompatActivity() {
