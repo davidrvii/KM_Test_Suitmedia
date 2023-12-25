@@ -56,7 +56,7 @@ dependencies {
     //menambahkan library rounded image
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     //bussines logic
-    implementation("androidx.lifecycle:lifecycle-view-model-ktx:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
