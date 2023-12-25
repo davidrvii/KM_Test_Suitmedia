@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.firstscreen.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgFirstScreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/first_screen_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:tint="@color/black"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/nulll" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tfName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/name"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/imgFirstScreen"
+        app:layout_constraintStart_toStartOf="@+id/imgFirstScreen"
+        app:layout_constraintTop_toBottomOf="@id/imgFirstScreen"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tfPalindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/palindrome"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/tfName"
+        app:layout_constraintStart_toStartOf="@+id/tfName"
+        app:layout_constraintTop_toBottomOf="@id/tfName"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnChek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/check"
+        app:layout_constraintEnd_toEndOf="@+id/tfPalindrome"
+        app:layout_constraintStart_toStartOf="@+id/tfPalindrome"
+        app:layout_constraintTop_toBottomOf="@+id/tfPalindrome"
+        tools:ignore="VisualLintButtonSize" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="@+id/btnChek"
+        app:layout_constraintStart_toStartOf="@+id/btnChek"
+        app:layout_constraintTop_toBottomOf="@+id/btnChek"
+        tools:ignore="VisualLintButtonSize" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

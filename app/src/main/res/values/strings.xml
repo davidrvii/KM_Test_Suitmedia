@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KM Test</string>
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">Check</string>
+    <string name="next">Next</string>
+    <string name="nulll">null</string>
+    <string name="email">Email</string>
+    <string name="third_screen">Third Screen</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="select_user_name">Select User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+</resources>
